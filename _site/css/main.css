@@ -4269,7 +4269,12 @@ SECTIONS
     min-height: 300px;
 }
 
-
+.portfolio-img {
+    background: url('assets/profile-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
 
 
 /***************************************************************
@@ -4315,22 +4320,24 @@ p, ul li {
     font-size: 20px;
 }
 
-//.btn {
-//    display: inline-block;
-//    width: 250px;
-//    height: 50px;
-//    text-align: center;
-//    border-radius: 1px;
-//    padding: 10px 0;
-//    color: #ECF0F1;
-//    font-family: $base-font-family;
-//    font-size: 18px;
-//    font-weight: 600;
-//    transition: all .2s ease;
-//}
-//.btn:hover {
-//
-//}
+/*
+.btn {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 1px;
+    padding: 10px 0;
+    color: #ECF0F1;
+    font-family: $base-font-family;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .2s ease;
+}
+.btn:hover {
+
+}
+*/
 
 /***************************************************************
 NAVIGATION
