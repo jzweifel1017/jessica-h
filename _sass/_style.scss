@@ -1,0 +1,218 @@
+
+/****************************************************************
+GENERAL STYLES
+****************************************************************/
+
+
+
+/***************************************************************
+SECTIONS
+***************************************************************/
+.section {
+    padding: 50px 0;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+#section-two {
+    background: #727272;
+    min-height: 300px;
+}
+
+
+
+
+/***************************************************************
+TEXT & BUTTONS
+***************************************************************/
+.align-center {
+  text-align: center;
+}
+
+.inline-text {
+    display: inline-block;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.border-yellow {
+    border-bottom: 2px solid #FFDE20;
+    max-width: 270px;
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: #F1F1F1;
+    padding-bottom: 20px;
+}
+
+p, ul li {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+
+//.btn {
+//    display: inline-block;
+//    width: 250px;
+//    height: 50px;
+//    text-align: center;
+//    border-radius: 1px;
+//    padding: 10px 0;
+//    color: #ECF0F1;
+//    font-family: $base-font-family;
+//    font-size: 18px;
+//    font-weight: 600;
+//    transition: all .2s ease;
+//}
+//.btn:hover {
+//
+//}
+
+/***************************************************************
+NAVIGATION
+***************************************************************/
+.main-nav {
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,12);
+    float: left;
+    width: 100%;
+    z-index: 999;
+    top:0;
+    right:0;
+    left:0;
+}
+.main-nav-inner {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+}
+.main-nav ul li {
+    display: inline;
+}
+.main-nav ul li a {
+    font-family: 'Questrial', sans-serif;
+    color: #383838;
+    font-size: 24px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+.main nav ul li a:hover{
+    color: #00ACAC;
+    text-doraction: none;
+    transition: .2s ease all;
+}
+
+/***************************************************************
+FOOTER
+***************************************************************/
+.main-foot {
+  width: 100%;
+  background-color: #FFA67C;
+  padding: 50px 0;
+  min-height: 200px;
+}
+
+.main-foot-inner {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main-foot h1 {
+    padding-bottom: 20px;
+}
+
+/**********************************************************************************************************
+SLICK NAV
+**********************************************************************************************************/
+ .slicknav_menu, #menu {
+     display: none;
+ }
+ .slicknav_menutxt {
+     display: none !important;
+ }
+ .slicknav_menu { 
+     background: #fff url(../assets/main-logo-small.png) 10px 8px no-repeat !important;
+     background-size: 80px !important;
+     padding: 15px 20px !important;
+ }
+ .slicknav_menu .slicknav_icon {
+     margin: 0px !important;
+ }
+ .slicknav_btn {
+     background-color: #fff!important; /*** HAMBURGER BACKGROUND COLOR ***/
+     padding: 0.5em 0.625em 0.6em 0.625em !important;
+ }
+ .slicknav_btn:hover {
+     cursor: pointer;
+ }
+ .slicknav_menu .slicknav_icon-bar {
+     background-color: #383838 !important; /*** HAMBURGER BARS COLOR ***/
+ }
+ .slicknav_nav a {
+     font-family: 'Questrial', sans-serif;
+     padding: 5px 0px 8px 0px !important;
+     margin: 0px !important;
+     text-decoration: none !important;
+     color: #383838 !important;
+     font-size: 16px !important;
+     text-align: center !important;
+     background: none !important;
+     font-weight: 400;
+     letter-spacing: .1em;
+     border-top: 1px solid #eee;
+     line-height: 25px;
+ }
+ .slicknav_nav li:first-child {
+     margin-top: 10px !important;
+ }
+ .slicknav_nav a:hover {
+     border-radius: 0px !important;
+     color: #00ACAC !important;
+ }
+ .slicknav_menu {
+     z-index: 9999;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+ }
+ 
+@media (max-width:640px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .co-nav {
+        display: none;
+    }
+    .main-nav {
+        display: none;
+    }
+}
+/***************************************************************
+MEDIA QUERIES/ VERSIONING
+***************************************************************/
+
+
