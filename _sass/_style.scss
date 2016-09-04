@@ -16,22 +16,33 @@ SECTIONS
     padding-top: 20px;
 }
 
+.pr20 {
+    padding-right: 20px;
+}
+
 #section-two {
     background: #727272;
     min-height: 300px;
+    clear: both;
 }
 
+<<<<<<< HEAD
 .portfolio-img {
     background-image: url('assets/profile-img.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 350px;
 }
+=======
+//.portfolio-img {
+//    background: url('assets/profile-img.png');
+//    background-size: cover;
+//    background-repeat: no-repeat;
+//    min-height: 350px;
+//}
 
-.text-section {
-    min-height: 350px;
-    padding: 150px 50px 50px 50px;
-}
+>>>>>>> gh-pages
+
 
 /***************************************************************
 TEXT & BUTTONS
@@ -105,12 +116,17 @@ NAVIGATION
     top:0;
     right:0;
     left:0;
+    clear: both;
 }
 .main-nav-inner {
     max-width: 1200px;
     display: block;
     margin: 0 auto;
     padding: 20px;
+}
+
+.main-foot-inner img {
+    padding: 0 10px 0 0;
 }
 
 .main-nav ul {
@@ -164,7 +180,7 @@ SLICK NAV
      display: none !important;
  }
  .slicknav_menu { 
-     background: #fff url(../assets/main-logo-small.png) 10px 8px no-repeat !important;
+     background: #fff url(css/assets/main-logo-small.png) 10px 8px no-repeat !important;
      background-size: 80px !important;
      padding: 15px 20px !important;
  }

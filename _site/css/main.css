@@ -4264,22 +4264,25 @@ SECTIONS
     padding-top: 20px;
 }
 
+.pr20 {
+    padding-right: 20px;
+}
+
 #section-two {
     background: #727272;
     min-height: 300px;
+    clear: both;
 }
 
+/*
 .portfolio-img {
     background: url('assets/profile-img.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 350px;
 }
+*/
 
-.text-section {
-    min-height: 350px;
-    padding: 150px 50px 50px 50px;
-}
 
 
 /***************************************************************
@@ -4356,12 +4359,17 @@ NAVIGATION
     top:0;
     right:0;
     left:0;
+    clear: both;
 }
 .main-nav-inner {
     max-width: 1200px;
     display: block;
     margin: 0 auto;
     padding: 20px;
+}
+
+.main-foot-inner img {
+    padding: 0 10px 0 0;
 }
 
 .main-nav ul {
