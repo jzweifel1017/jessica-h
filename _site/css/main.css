@@ -4276,10 +4276,6 @@ SECTIONS
     min-height: 350px;
 }
 
-.text-section {
-    min-height: 350px;
-    padding: 150px 50px 50px 50px;
-}
 
 
 /***************************************************************
@@ -4356,6 +4352,7 @@ NAVIGATION
     top:0;
     right:0;
     left:0;
+    clear: both;
 }
 .main-nav-inner {
     max-width: 1200px;
