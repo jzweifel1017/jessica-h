@@ -4328,8 +4328,17 @@ p, ul li {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 a:hover {
     color: #00ACAC;
+=======
+a {
+    transition: .2s ease all;
+}
+
+a:hover {
+    color: #00ACAC !important;
+>>>>>>> gh-pages
 }
 
 /*
