@@ -26,14 +26,14 @@ SECTIONS
     clear: both;
 }
 
-<<<<<<< HEAD
-.portfolio-img {
-    background-image: url('assets/profile-img.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 350px;
-}
-=======
+
+//.portfolio-img {
+//    background-image: url('assets/profile-img.png');
+//    background-size: cover;
+//    background-repeat: no-repeat;
+//    min-height: 350px;
+//}
+
 //.portfolio-img {
 //    background: url('assets/profile-img.png');
 //    background-size: cover;
@@ -41,7 +41,6 @@ SECTIONS
 //    min-height: 350px;
 //}
 
->>>>>>> gh-pages
 
 
 /***************************************************************
@@ -87,6 +86,11 @@ p, ul li {
     font-size: 20px;
 }
 
+a:hover {
+    color: #00ACAC;
+}
+
+
 //.btn {
 //    display: inline-block;
 //    width: 250px;
@@ -109,7 +113,7 @@ NAVIGATION
 ***************************************************************/
 .main-nav {
     background: #fff;
-    box-shadow: 0 10px 20px rgba(0,0,0,12);
+    box-shadow: 0 10px 20px #494949;
     float: left;
     width: 100%;
     z-index: 999;
@@ -143,11 +147,12 @@ NAVIGATION
     font-size: 24px;
     display: inline-block;
     padding: 20px 10px;
-}
-.main nav ul li a:hover{
-    color: #00ACAC;
-    text-doraction: none;
     transition: .2s ease all;
+}
+.main nav ul li a:hover {
+    color: #00ACAC !important;
+    text-doraction: none;
+
 }
 
 /***************************************************************

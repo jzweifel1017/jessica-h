@@ -4328,6 +4328,10 @@ p, ul li {
     font-size: 20px;
 }
 
+a:hover {
+    color: #00ACAC;
+}
+
 /*
 .btn {
     display: inline-block;
@@ -4352,7 +4356,7 @@ NAVIGATION
 ***************************************************************/
 .main-nav {
     background: #fff;
-    box-shadow: 0 10px 20px rgba(0,0,0,.12);
+    box-shadow: 0 10px 20px #494949;
     float: left;
     width: 100%;
     z-index: 999;
@@ -4386,12 +4390,14 @@ NAVIGATION
     font-size: 24px;
     display: inline-block;
     padding: 20px 10px;
-}
-.main-nav ul li a:hover{
-    color: #00ACAC;
-    text-decoration: none;
     transition: .2s ease all;
 }
+.main-nav ul li a:hover {
+    color: #00ACAC !important;
+    text-decoration: none;
+
+}
+
 
 /***************************************************************
 FOOTER
