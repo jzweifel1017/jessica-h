@@ -4328,6 +4328,14 @@ p, ul li {
     font-size: 20px;
 }
 
+a {
+    transition: .2s ease all;
+}
+
+a:hover {
+    color: #00ACAC !important;
+}
+
 /*
 .btn {
     display: inline-block;
@@ -4352,7 +4360,7 @@ NAVIGATION
 ***************************************************************/
 .main-nav {
     background: #fff;
-    box-shadow: 0 10px 20px rgba(0,0,0,.12);
+    box-shadow: 0 10px 20px #494949;
     float: left;
     width: 100%;
     z-index: 999;
@@ -4387,8 +4395,8 @@ NAVIGATION
     display: inline-block;
     padding: 20px 10px;
 }
-.main-nav ul li a:hover{
-    color: #00ACAC;
+.main-nav ul li a:hover {
+    color: #00ACAC !important;
     text-decoration: none;
     transition: .2s ease all;
 }
