@@ -4283,7 +4283,11 @@ SECTIONS
 }
 */
 
-
+#resume-sec-one {
+    background: #727272;
+    min-height: 300px;
+    clear: both;
+}
 
 /***************************************************************
 TEXT & BUTTONS
@@ -4336,24 +4340,27 @@ a:hover {
     color: #00ACAC !important;
 }
 
-/*
 .btn {
+    background: transparent;
+    color: #fff;
     display: inline-block;
     width: 250px;
     height: 50px;
     text-align: center;
     border-radius: 1px;
     padding: 10px 0;
-    color: #ECF0F1;
-    font-family: $base-font-family;
+    font-family: 'Questrial', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     transition: all .2s ease;
+    border: 1px solid #FFDE20;
 }
 .btn:hover {
-
+    background: #FFA67C;
+    border: 1px solid #FFA67C;
+    text-decoration: none;
+    color: #fff !important;
 }
-*/
 
 /***************************************************************
 NAVIGATION
@@ -4431,7 +4438,7 @@ SLICK NAV
      display: none !important;
  }
  .slicknav_menu { 
-     background: #fff url(../assets/main-logo-small.png) 10px 8px no-repeat !important;
+     background: #fff url("/css/assets/jh-logo.png") 10px 8px no-repeat !important;
      background-size: 80px !important;
      padding: 15px 20px !important;
  }
